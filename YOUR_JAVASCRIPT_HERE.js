@@ -39,6 +39,12 @@ function equipWeapon(hero) {
         console.log('inventory empty')
     }
     return hero.inventory
-    return hero.weapon
+    
     
 }
+
+var displayStats = function() {
+    document.write(`Name: ${hero.name} \n`,`Health: ${hero.health} \n`, `Weapontype: ${hero.weapon.type} \n`, `Damage: ${hero.weapon.damage}`)
+
+}
+displayStats()
