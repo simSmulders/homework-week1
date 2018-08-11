@@ -48,3 +48,11 @@ var displayStats = function() {
 
 }
 displayStats()
+
+//submitForm not yet working.
+//function submitForm(event) {
+//  event.preventDefault()
+//  const newName = document.getElementById("newHero").value
+//  hero.name = newName.innerText
+//  console.log('naam veranderd')
+//}

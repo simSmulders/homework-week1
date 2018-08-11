@@ -27,27 +27,27 @@ Tips:
 
 ## Section 1. Creating the hero object
 
-Follow the tests in the browser
+Follow the tests in the browser. DONE
 
 ## Section 2. Implementing the basic game logic and UI
 
-**The functions you will be defining are already being called by the test file.** It will complain in the console if they are not working correctly yet.
+**The functions you will be defining are already being called by the test file.** It will complain in the console if they are not working correctly yet. DONE
 
 **note:** You could implement this game logic in many other ways. But in order for the tests to guide you the instructions are very specific.
 
 ## Section 3. CSS
 
-- Link an external stylesheet and make all the pictures the same size.
+- Link an external stylesheet and make all the pictures the same size. DONE
 
 ## Section 4 - Bonus: Show me what you got
 
 
-- Write `displayStats` function that writes your hero's name, health, weapontype, weapon damage to the page. Call it at the end of your script
+- Write `displayStats` function that writes your hero's name, health, weapontype, weapon damage to the page. Call it at the end of your script. SORT OF DONE
 
-- Create a form that allow users to change the name of their hero.
+- Create a form that allow users to change the name of their hero. FORM CREATED, NOT YET FUNCTIONING
 
-- Call `displayStats` when some data of the hero has change to update the page.
+- Call `displayStats` when some data of the hero has change to update the page. STILL OPEN
 
-- Implement fighting an enemy. (how you do it is up to you!)
+- Implement fighting an enemy. (how you do it is up to you!) STILL OPEN. I WANTED TO MAKE AN RANDOMIZER WHICH WOULD RANDOMIZE THE ATTACKS OF EITHER THE HERO AND THE ENEMY. EACH ATTACK WOULD TAKE DE AMOUNT OF ENERGY OF THE OPPONENT EQUAL TO THE DAMAGE OF THE WEAPON USED.
 
-- When an enemy or weapon gets clicked it gets deleted from the page
+- When an enemy or weapon gets clicked it gets deleted from the page. STILL OPEN
