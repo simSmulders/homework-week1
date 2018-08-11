@@ -20,10 +20,25 @@ function rest(hero) {
     return hero;
 }
 
-function pickUpItem() {
+function pickUpItem(hero, weapon) {
+    console.log('weapon picked up')
+    hero.inventory.push(weapon)
 
+    return hero.inventory
+    console.log('weapon added to inventory')
 }
 
-function equipWeapon() {
-
+function equipWeapon(hero) {
+    
+    if (hero.inventory.length >= 1) {
+        hero.weapon = hero.inventory[0];
+        hero.inventory[0] = hero.inventory[hero.inventory.length - 1]; 
+        hero.inventory.pop()
+        console.log('weapon equiped')
+    } else {
+        console.log('inventory empty')
+    }
+    return hero.inventory
+    return hero.weapon
+    
 }
